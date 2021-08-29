@@ -1,0 +1,5 @@
+{
+  "recipes": {
+    "shapeless_cocoa_recipe": "net.explosionfish.hotcocoa.items.ShapelessCocoaRecipe$Factory"
+  }
+}

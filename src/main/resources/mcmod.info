@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "hotcocoa",
+    "name": "Hot Cocoa",
+    "description": "Make hot cocoa!",
+    "version": "1.3",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "noahcou"
+    ],
+    "credits": "Made by Noah Cou",
+    "logoFile": "assets/hotcocoa/textures/logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

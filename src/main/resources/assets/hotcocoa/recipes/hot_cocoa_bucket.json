@@ -1,0 +1,18 @@
+{
+  "type": "hotcocoa:shapeless_cocoa_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+    {
+      "item": "hotcocoa:hot_milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "hotcocoa:hot_cocoa_bucket"
+  }
+}

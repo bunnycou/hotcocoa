@@ -1,0 +1,14 @@
+# Items
+item.hotcocoa.hot_milk_bucket.name=Hot Milk Bucket
+
+item.hotcocoa.hot_cocoa_bucket.name=Hot Cocoa Bucket
+item.hotcocoa.hot_cocoa_mug.name=Hot Cocoa Mug
+
+item.hotcocoa.marshmallows.name=Marshmallows
+item.hotcocoa.marshmallow_cocoa_bucket.name=Marshmallow Cocoa Bucket
+item.hotcocoa.marshmallow_cocoa_mug.name=Marshmallow Cocoa Mug
+
+# Blocks
+
+# Creative Tabs
+itemGroup.hotcocoa=Hot Cocoa

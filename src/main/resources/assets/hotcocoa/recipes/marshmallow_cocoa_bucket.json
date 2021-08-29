@@ -1,0 +1,14 @@
+{
+  "type": "hotcocoa:shapeless_cocoa_recipe",
+  "ingredients": [
+    {
+      "item": "hotcocoa:hot_cocoa_bucket"
+    },
+    {
+      "item": "hotcocoa:marshmallows"
+    }
+  ],
+  "result": {
+    "item": "hotcocoa:marshmallow_cocoa_bucket"
+  }
+}

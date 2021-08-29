@@ -1,0 +1,6 @@
+{
+  "parent" : "item/generated",
+  "textures" : {
+    "layer0" : "hotcocoa:items/marshmallow_cocoa_bucket"
+  }
+}
