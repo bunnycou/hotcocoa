@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hotcocoa",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Hot Cocoa Mod",
+  "description": "A mod that adds hot cocoa and variants to minecraft",
   "authors": [
-    "Me!"
+    "bunnycou"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/hotcocoa",
+    "sources": "https://github.com/bunnycou/hotcocoa"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/hotcocoa/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.explosionfish.hotcocoa.HotCocoaMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hotcocoa.mixins.json"
   ],
 
   "depends": {

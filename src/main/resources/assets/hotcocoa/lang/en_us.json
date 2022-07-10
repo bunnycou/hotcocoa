@@ -1,0 +1,10 @@
+{
+  "item.hotcocoa.hot_milk_bucket": "Hot Milk Bucket",
+  "item.hotcocoa.hot_cocoa_bucket": "Hot Cocoa Bucket",
+  "item.hotcocoa.hot_cocoa_mug": "Hot Cocoa Mug",
+  "item.hotcocoa.marshmallows": "Marshmallows",
+  "item.hotcocoa.marshmallow_cocoa_bucket": "Marshmallow Cocoa Bucket",
+  "item.hotcocoa.marshmallow_cocoa_mug": "Marshmallow Cocoa Mug",
+
+  "itemGroup.minecraft.hotcocoa": "Hot Cocoa"
+}

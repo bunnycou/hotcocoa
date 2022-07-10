@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# HotCocoa
+Hot Cocoa Mod for Minecraft 1.18.2 Fabric
 
-## Setup
+This mod adds hotcocoa and marshmallows to minecraft!
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+(Will be adding mint, pumpkin, and more)
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Available on [curseforge](https://www.curseforge.com/minecraft/mc-mods/hotcocoa)
