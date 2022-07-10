@@ -45,6 +45,8 @@ public class HotCocoaMod implements ModInitializer {
 	public static final Item MARSHMALLOWS = new Item(new FabricItemSettings().group(Cocoa_Group)
 			.food(new FoodComponent.Builder()
 					.hunger(1)
+					.snack()
+					.statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 30*20, 1), 0.5f)
 					.build()));
 
 	public static final ItemBucket MARSHMALLOW_COCOA_BUCKET = new ItemBucket(new FabricItemSettings().group(Cocoa_Group)

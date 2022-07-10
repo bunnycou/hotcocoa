@@ -14,6 +14,7 @@ public class ItemBucket extends Item {
 
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
+        user.eatFood(world, stack);
         return new ItemStack(Items.BUCKET, 1);
     }
 }
