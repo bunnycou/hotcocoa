@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hotcocoa:hot_cocoa_bucket"
+    }
+  ],
+  "result": {
+    "item": "hotcocoa:hot_cocoa_mug",
+    "count": 4
+  },
+  "remainder": {
+    "item": "minecraft:bucket"
+  }
+}

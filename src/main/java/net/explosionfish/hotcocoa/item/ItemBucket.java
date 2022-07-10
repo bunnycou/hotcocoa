@@ -6,14 +6,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.world.World;
 
-public class ItemMilk extends Item {
-    public ItemMilk(Settings settings) {
+public class ItemBucket extends Item {
+
+    public ItemBucket(Settings settings) {
         super(settings);
     }
 
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
-        user.clearStatusEffects();
         return new ItemStack(Items.BUCKET, 1);
     }
 }

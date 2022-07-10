@@ -1,15 +1,13 @@
 package net.explosionfish.hotcocoa;
 
+import net.explosionfish.hotcocoa.item.ItemBucket;
 import net.explosionfish.hotcocoa.item.ItemMilk;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.FoodComponent;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
@@ -25,19 +23,22 @@ public class HotCocoaMod implements ModInitializer {
 
 	// milk
 	public static final ItemMilk HOT_MILK_BUCKET = new ItemMilk(new FabricItemSettings().group(Cocoa_Group)
+			.maxCount(1)
 			.food(new FoodComponent.Builder()
 					.hunger(2)
 					.alwaysEdible()
 					.build()));
 
 	// hot cocoa
-	public static final Item HOT_COCOA_BUCKET = new Item(new FabricItemSettings().group(Cocoa_Group)
+	public static final ItemBucket HOT_COCOA_BUCKET = new ItemBucket(new FabricItemSettings().group(Cocoa_Group)
+			.maxCount(1)
+			.recipeRemainder(Items.BUCKET)
 			.food(new FoodComponent.Builder()
 					.hunger(6)
 					.build()));
 	public static final Item HOT_COCOA_MUG = new Item(new FabricItemSettings().group(Cocoa_Group)
 			.food(new FoodComponent.Builder()
-					.hunger(4)
+					.hunger(3)
 					.build()));
 
 	// marshmallows
@@ -46,7 +47,9 @@ public class HotCocoaMod implements ModInitializer {
 					.hunger(1)
 					.build()));
 
-	public static final Item MARSHMALLOW_COCOA_BUCKET = new Item(new FabricItemSettings().group(Cocoa_Group)
+	public static final ItemBucket MARSHMALLOW_COCOA_BUCKET = new ItemBucket(new FabricItemSettings().group(Cocoa_Group)
+			.maxCount(1)
+			.recipeRemainder(Items.BUCKET)
 			.food(new FoodComponent.Builder()
 					.hunger(6)
 					.alwaysEdible()
@@ -54,7 +57,7 @@ public class HotCocoaMod implements ModInitializer {
 					.build()));
 	public static final Item MARSHMALLOW_COCOA_MUG = new Item(new FabricItemSettings().group(Cocoa_Group)
 			.food(new FoodComponent.Builder()
-					.hunger(4)
+					.hunger(3)
 					.alwaysEdible()
 					.statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 60*20, 1), 1)
 					.build()));
