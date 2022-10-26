@@ -1,5 +1,5 @@
 # HotCocoa
-Hot Cocoa Mod for Minecraft 1.18.2 Fabric
+Hot Cocoa Mod for Minecraft Fabric
 
 This mod adds hotcocoa and marshmallows to minecraft!
 
